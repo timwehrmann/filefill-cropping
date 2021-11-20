@@ -22,6 +22,6 @@ nbproject
 /vendor/
 /shared
 /var
-/public/fileadmin
-/public/typo3temp
-/public/var
+/public/
+!/public/typo3conf/AdditionalConfiguration.php
+!/public/typo3conf/LocalConfiguration.php
