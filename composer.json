@@ -12,6 +12,7 @@
 		"cweagans/composer-patches": "^1.7",
 		"helhum/typo3-console": "^7.0",
 		"lochmueller/sourceopt": "^4.0",
+		"typo3-ux/page-module-pilot": "^0.1.6",
 		"typo3/cms-backend": "^11.5.0",
 		"typo3/cms-belog": "^11.5.0",
 		"typo3/cms-beuser": "^11.5.0",
@@ -48,5 +49,6 @@
 	},
 	"patches": {},
 	"extra": {
+		"enable-patching": "true"
 	}
 }
