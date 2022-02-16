@@ -6,11 +6,17 @@
 		"platform": {
 			"php": "7.4.1"
 		},
-		"sort-packages": true
+		"sort-packages": true,
+		"allow-plugins": {
+			"typo3/class-alias-loader": true,
+			"typo3/cms-composer-installers": true,
+			"cweagans/composer-patches": true
+		}
 	},
 	"require": {
 		"cweagans/composer-patches": "^1.7",
 		"helhum/typo3-console": "^7.0",
+		"ichhabrecht/filefill": "^4.0",
 		"lochmueller/sourceopt": "^4.0",
 		"typo3-ux/page-module-pilot": "^0.1.6",
 		"typo3/cms-backend": "^11.5.0",
