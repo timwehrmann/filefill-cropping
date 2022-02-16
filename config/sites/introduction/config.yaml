@@ -1,8 +1,11 @@
 base: t3uxtest.w5.lechtfeuer.com
 baseVariants:
   -
-    base: t3uxtest.local
+    base: 'https://t3uxtest.local'
     condition: 'applicationContext == "Development"'
+  -
+    base: 'https://tw-t3uxtest.testphp74'
+    condition: 'applicationContext == "Testing"'
 errorHandling:
   -
     errorCode: 404
