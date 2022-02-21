@@ -90,6 +90,9 @@ return [
         'processor_path' => '/usr/bin/',
         'processor_path_lzw' => '/usr/bin/',
     ],
+    'HTTP' => [
+        'verify' => '0',
+    ],
     'LOG' => [
         'TYPO3' => [
             'CMS' => [
