@@ -50,6 +50,10 @@ return [
             'automaticInstallation' => '1',
             'offlineMode' => '0',
         ],
+        'frontend_editing' => [
+            'contentEditableWrapperTagName' => 'div',
+            'enablePlaceholders' => '0',
+        ],
         'indexed_search' => [
             'catdoc' => '/usr/bin/',
             'debugMode' => '0',

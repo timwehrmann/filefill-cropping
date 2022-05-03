@@ -15,6 +15,7 @@
 	},
 	"require": {
 		"cweagans/composer-patches": "^1.7",
+		"friendsoftypo3/frontend-editing": "^3.0",
 		"helhum/typo3-console": "^7.0",
 		"ichhabrecht/filefill": "^4.0",
 		"lochmueller/sourceopt": "^4.0",
